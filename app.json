@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "ConectaAgro",
+    "slug": "ConectaAgro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/conectaagro-icon.png",
+    "scheme": "conectaagro",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/images/conectaagro-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#17330B",
+        "foregroundImage": "./assets/images/conectaagro-icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.liviamaga.ConectaAgro"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/conectaagro-icon.png",
+          "imageWidth": 160
+        }
+      ],
+      "@maplibre/maplibre-react-native",
+      "expo-image",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7fcf1725-4356-4612-8eb5-de13101a47ab"
+      }
+    }
+  }
+}
